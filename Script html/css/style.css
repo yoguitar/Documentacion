@@ -1,0 +1,86 @@
+header{
+	background-color: #4682B4;
+	color: white;
+}
+
+.main{
+	background-color: #191970;
+	color: black;
+}
+
+aside{
+	background-color: #C0C0C0;
+	color: black;
+}
+footer{
+	background-color: #4682B4;
+	color: black;
+}
+
+
+.{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient(to bottom right, #4682B4, #000080);
+}
+
+
+form{
+	margin: auto;
+	width: 50%;
+	max-width: 500px;
+	background: White;
+	padding: 6.6%;
+	border: 1px solid rgba(0,0,0,0.2);
+	size: 50%;
+}
+
+#frmCerrarSesion{
+	margin: auto;
+	width: 100%;
+	max-width: 500px;
+	background: White;
+	padding: 10% ;
+	border: none; ;
+	background-color: transparent;
+}
+
+#body{
+	padding: 5.4%;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+	color:white;
+}
+
+input{
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 30px 0;
+	font-size: 20px;
+}
+#registro{
+	text-align: right;
+	font-size: 20px;
+}
+input[type="submit"]{
+	background: linear-gradient(#4682B4, #000080);
+	border: 0;
+	color: White;
+	opacity: 0.8;
+	border-radius: 20px;
+	margin-bottom: 0;
+}
+
+input[type="submit"]:hover{
+	opacity: 1;
+}
+
+input[type="submit"]:active{
+	transform: scale(0.95);
+}
